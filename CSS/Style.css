@@ -79,7 +79,7 @@ div {
     /* margin: 1%;
     margin-left: 6%; */
     font-family: FutureEarth;
-    font-size: 22px;
+    font-size: 150%;
     -webkit-text-stroke: 1px white;
     text-indent: 15%;
     /* border: 1px solid red; */
@@ -214,7 +214,7 @@ div {
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 900px) {
     
     .conteudo {
 
@@ -246,7 +246,7 @@ div {
         /* margin: 1%;
         margin-left: 6%; */
         font-family: FutureEarth;
-        font-size: 22px;
+        font-size: 125%;
         -webkit-text-stroke: 1px white;
         text-indent: 15%;
         /* border: 1px solid red; */
@@ -349,5 +349,100 @@ div {
         }
     }
 
+
+}
+
+@media screen and (max-width: 350px) {
+    
+    .pr {
+        
+        font-size: 100%;
+    
+    }
+
+    
+    @keyframes FogoAndar {
+        0% {
+            margin-left: 5%;
+            background-image: url(IMG/AstronautaSemFogo.png);
+        }
+        4% {
+            background-image: url(IMG/Astronauta_Fogo_Baixo.png);
+        }
+        8% {
+            background-image: url(IMG/Astronauta_Fogo_Medio.png);
+        }
+        12% {
+            background-image: url(IMG/Astronauta_Fogo_Alto.png);
+        }
+        16% {
+            background-image: url(IMG/Astronauta_Fogo_Medio.png);
+        }
+        20% {
+            background-image: url(IMG/Astronauta_Fogo_Baixo.png);
+        }
+        25% {
+            background-image: url(IMG/AstronautaSemFogo.png);
+        }
+        29% {
+            background-image: url(IMG/Astronauta_Fogo_Baixo.png);
+        }
+        33% {
+            background-image: url(IMG/Astronauta_Fogo_Medio.png);
+        }
+        37%{
+            background-image: url(IMG/Astronauta_Fogo_Alto.png);
+        }
+        41% {
+            background-image: url(IMG/Astronauta_Fogo_Medio.png);
+        }
+        45% {
+            background-image: url(IMG/Astronauta_Fogo_Baixo.png);
+        }
+        50% {
+            /* margin-left: 92%; */
+            background-image: url(IMG/AstronautaSemFogo.png);
+            /* transform: rotate(180deg); */
+        }
+        54% {
+            background-image: url(IMG/Astronauta_Fogo_Baixo.png);
+        }
+        58% {
+            background-image: url(IMG/Astronauta_Fogo_Medio.png);
+        }
+        62% {
+            background-image: url(IMG/Astronauta_Fogo_Alto.png);
+        }
+        66% {
+            background-image: url(IMG/Astronauta_Fogo_Medio.png);
+        }
+        69% {
+            background-image: url(IMG/Astronauta_Fogo_Baixo.png);
+        }
+        75% {
+            background-image: url(IMG/AstronautaSemFogo.png);
+        }
+        79% {
+            background-image: url(IMG/Astronauta_Fogo_Baixo.png);
+        }
+        84% {
+            background-image: url(IMG/Astronauta_Fogo_Medio.png);
+        }
+        88% {
+            background-image: url(IMG/Astronauta_Fogo_Alto.png);
+        }
+        92% {
+            background-image: url(IMG/Astronauta_Fogo_Medio.png);
+        }
+        96% {
+            background-image: url(IMG/Astronauta_Fogo_Baixo.png);
+        }
+        100% {
+            margin-left: 55%;
+            background-image: url(IMG/AstronautaSemFogo.png);
+            /* transform: rotate(180deg); */
+            
+        }
+    }
 
 }
